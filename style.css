@@ -1,5 +1,6 @@
 h1 {
     font-size: 4rem;
+    text-align: center;
 }
 
 p {
@@ -62,7 +63,7 @@ section {
     top: 0;
     left: 0;
     width: 100%;
-    overflow: hidden;
+    overflow: unset;
     line-height: 0;
 }
 
@@ -74,6 +75,9 @@ section {
 
   .blob-content {
     z-index: 1;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
   }
 
 .blob1 {
