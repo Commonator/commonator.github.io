@@ -9,7 +9,7 @@ p {
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: #262730;
     background: #ffbd00;
     overflow-x: hidden;
 }
@@ -65,6 +65,16 @@ section {
     overflow: hidden;
     line-height: 0;
 }
+
+.blob-motion {
+    position: absolute;
+    transform: translateY(-20%);
+    z-index: 0;
+  }
+
+  .blob-content {
+    z-index: 1;
+  }
 
 .blob1 {
     background-image: url('./blob1.svg');
