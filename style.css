@@ -1,0 +1,115 @@
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: #ffbd00;
+    overflow-x: hidden;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+.tyrian {
+    background: #550527;
+    color: #ffbd00;
+}
+
+.fuzzy {
+    background: #c1666b;
+    color: #262730;
+}
+
+.amber {
+    background: #ffbd00;
+    overflow: hidden;
+    color: #550527;
+}
+
+.slate {
+    background: #628395;
+    color: #262730;
+}
+
+.raisin {
+    background: #262730;
+    color: #ffbd00;
+}
+
+.spacer {
+    aspect-ratio: 960/125;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.blob1 {
+    background-image: url('./blob1.svg');
+}
+
+.blob2 {
+    background-image: url('./blob2.svg');
+}
+
+.ambertotyrian {
+    background-image: url('./ambertotyrian.svg');
+}
+
+.tyriantofuzzy {
+    background-image: url('./tyriantofuzzy.svg');
+}
+
+.fuzzytoraisin {
+    background-image: url('./fuzzytoraisin.svg');
+}
+
+.raisintoamber {
+    background-image: url('./raisintoamber.svg');
+}
+
+.ambertoslate {
+    background-image: url('./ambertoslate.svg');
+}
+
+.slatetofuzzy {
+    background-image: url('./slatetofuzzy.svg');
+}
+
+.fuzzytotyrian {
+    background-image: url('./fuzzytotyrian.svg');
+}
+
+.tyriantoraisin {
+    background-image: url('./tyriantoraisin.svg');
+}
+
+.flip {
+    transform: rotate(180deg);
+}
+
+.visual {
+    align-items: top-left;
+}
